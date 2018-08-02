@@ -1,3 +1,8 @@
+
+# TODO
+- add 1.5 minute.
+- cite 3 sources
+
 Andrew
 
 Argue against your own opinions.
@@ -43,6 +48,10 @@ III.  Satisfaction
 			  - So if your goal is convince someone, don't do this, it's counterproductive.
 			  - Don't shoot yourself in the foot during a persuasive speech.
 			  - Instead, when you talk in real life, or when you think to yourself, honestly explore how you could be wrong.  
+		  2. Alternative method, let others oppose your arguments.
+			  - Seems reasonable; if you take this route.
+			  - You'll need friends who disagree with you.
+			  - You'll need to **actually listen** to them.
  IV.  Visualization (optional, only if time allows)
 	  A.  Describe a positive future if your plan is put into action, OR:
 		  1. What if everybody behaved this way?
