@@ -1,8 +1,6 @@
 
 # TODO
-- add 1.5 minute.
 - cite 3 sources
-- state refution, innefiicent
 
 Andrew
 
@@ -41,8 +39,7 @@ III.  Satisfaction
 		  3. By opposing your own **true** viewpoint, you learn exactly **why** it's true.
 	  D.  Use facts, figures, and testimony to show that the proposal has worked effectively, or the belief has proved correct.
 		  1. The scientific method is, in a way, about discovering exactly how the scientist is wrong.
-		  2. It seems to work pretty well.
-	  E.  Show that your proposal can overcome any potential objections.
+	  F.  Show that your proposal can overcome any potential objections.
 		  1. Problem when convincing others
 			  - Arguing against your own opinion damages your stance when you don't refute those contrary arguments.
 			  - Yes...
@@ -53,15 +50,24 @@ III.  Satisfaction
 			  - Seems reasonable; if you take this route.
 			  - You'll need friends who disagree with you.
 			  - You'll need to **actually listen** to them.
+		  3. Self doubt is uncomfortable and inneficient.
+			  - I aggree, if you always question yourself, how will you make desicions?
+			  - Only counter yourself once... or maybe twice for important things.
+			  - Reevaluate when you learn new information.
  IV.  Visualization (optional, only if time allows)
 	  A.  Describe a positive future if your plan is put into action, OR:
-		  1. What if everybody behaved this way?
-		  2. ...
+		  1. What if everybody tryed to prove temselves wrong?
+		  2. What if nobody let thier minds be changed... Food for thought.
+		  3. I will say this:
+			  - Changing your mind feels good.
+   			  - The world starts to make a little more sense.
 	  B.  Have listeners imagine an unpleasant situation if they fail to put your plan into action.  
   V.  Action
 	  A.  Functions as your conclusion.
 	  B.  Restate the specific, overt action, attitude, or belief you are advocating (this is your call to action!).
-		  1. You all should try this at least for a while.
+		  1. You all should try questioning even your most tightly held beleifs.
+		  2. Maybe you'll change your mind, maybe you'll elucidate your own reasoning.
+		  3. What's the worst that could happen?
 	  C.  State your personal intention to act.
 		  1. I'm going to consciously try opposing my own views.
 	  D.  End with impact (clincher).
