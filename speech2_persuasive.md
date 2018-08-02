@@ -2,6 +2,7 @@
 # TODO
 - add 1.5 minute.
 - cite 3 sources
+- state refution, innefiicent
 
 Andrew
 
@@ -60,7 +61,7 @@ III.  Satisfaction
   V.  Action
 	  A.  Functions as your conclusion.
 	  B.  Restate the specific, overt action, attitude, or belief you are advocating (this is your call to action!).
-		  1. ??? TODO
+		  1. You all should try this at least for a while.
 	  C.  State your personal intention to act.
 		  1. I'm going to consciously try opposing my own views.
 	  D.  End with impact (clincher).
