@@ -1,6 +1,12 @@
+---
+geometry: margin=2cm
+---
 
 # TODO
 - cite 3 sources
+  - https://sma.nasa.gov/docs/default-source/safety-messages/safetymessage-normalizationofdeviance-2014-11-03b.pdf?sfvrsn=4
+  - http://www.feynman.com/science/the-challenger-disaster/
+  - https://scholar.google.com/scholar?q=Irving+L.+Janis%27+Victims+of+Groupthink&hl=en&as_sdt=0&as_vis=1&oi=scholart
 
 Andrew
 
