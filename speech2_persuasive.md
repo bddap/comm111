@@ -1,19 +1,16 @@
----
-geometry: margin=2cm
----
+<style>
+.citation {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+body {
+	font-family: sans-serif;
+}
+</style>
 
-# TODO
-- cite 3 sources
-  - https://sma.nasa.gov/docs/default-source/safety-messages/safetymessage-normalizationofdeviance-2014-11-03b.pdf?sfvrsn=4
-  - http://www.feynman.com/science/the-challenger-disaster/
-  - https://scholar.google.com/scholar?q=Irving+L.+Janis%27+Victims+of+Groupthink&hl=en&as_sdt=0&as_vis=1&oi=scholart
-
-Andrew
-
-Argue against your own opinions.
-
-General Purpose: Persuade (Value)
-
+Andrew</br>
+Argue against your own opinions.</br>
+General Purpose: Persuade (Value)</br>
 Specific Purpose: Convince the audience to argue against their own opinions.
 
   I.  Attention
@@ -32,7 +29,7 @@ Specific Purpose: Convince the audience to argue against their own opinions.
 		  3. 9th street is less busy and has honeysuckle hanging over the sidewalk, you're missing out.
 		  4. Try the other metaphorical street.
 	  C.  Provide additional support (like statistics or testimony) that show the extent of the problem.
-		  1. In my estimation, 10/10 people are wrong about something.
+		  1. In my estimation, 10/10 people are wrong about something. (Audience participation)
 	  D.  Show the relationship between the audience and the problem.  
 III.  Satisfaction
 	  A.  State the attitude, belief, or action you want the audience to adopt.
@@ -56,10 +53,19 @@ III.  Satisfaction
 			  - Seems reasonable; if you take this route.
 			  - You'll need friends who disagree with you.
 			  - You'll need to **actually listen** to them.
+			  - Things to watch out for
+				  - Group think.
+				  - Irving Janis
+				  - Social pressures prevent critical/realistic thinking.
+				  - According to Nasa, groupthink is to blame for the fatal failure of the challenger mission.
 		  3. Self doubt is uncomfortable and inneficient.
 			  - I aggree, if you always question yourself, how will you make desicions?
 			  - Only counter yourself once... or maybe twice for important things.
 			  - Reevaluate when you learn new information.
+			  - Thing to watch out for
+				  - Normalization of deviance.
+				  - Coined by Diane Vaughan
+				  - when you become used to something wrong, you gradually stop realizing it's wrong
  IV.  Visualization (optional, only if time allows)
 	  A.  Describe a positive future if your plan is put into action, OR:
 		  1. What if everybody tryed to prove temselves wrong?
@@ -78,3 +84,11 @@ III.  Satisfaction
 		  1. I'm going to consciously try opposing my own views.
 	  D.  End with impact (clincher).
 		  1. Maybe it will help, probably not. Either way, I hope to gain some wisdom in the process.
+
+Works cited:
+
+<p class="citation">Dyson M.J. (2016) The Challenger Disaster. In: A Passion for Space. Springer Praxis Books. Springer, Cham</p>
+
+<p class="citation">Janis, I. L. (1972). Victims of groupthink: A psychological study of foreign-policy decisions and fiascoes. Oxford, England: Houghton Mifflin.</p>
+
+<p class="citation">Wilcutt, Terry, and Hal Bell. “The Cost of Silence: Normalization of Deviance and Groupthink.” NASA, sma.nasa.gov/docs/default-source/safety-messages/safetymessage-normalizationofdeviance-2014-11-03b.pdf?sfvrsn=4.</p>
