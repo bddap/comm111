@@ -1,0 +1,116 @@
+<style>
+body {
+    font-family: sans-serif;
+}
+section {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 1em;
+}
+</style>
+<script>
+let currentSlide = 0;
+function display(slide) {
+    const sections = document.getElementsByTagName('section');
+    currentSlide = Math.min(Math.max(slide, 0), sections.length - 1);
+    Array.from(sections).forEach((section, index) => {
+        section.style.display = index === currentSlide ? null : 'none';
+    })
+}
+document.addEventListener('keydown', event => {
+    if(event.key === 'ArrowRight' || 
+        event.key === 'ArrowUp' ||
+        event.key == ' ')
+        display(currentSlide + 1);
+    if(event.key === 'ArrowLeft' ||
+        event.key === 'ArrowDown')
+        display(currentSlide - 1);
+});
+document.addEventListener('click', event => display(currentSlide + 1));
+document.addEventListener("DOMContentLoaded", () => display(0));
+</script>
+<section>
+<p>Confirmation bias.</p>
+<p>If you want to find the truth, argue against your own opinions.</p>
+<p>Hard to change mind</p>
+<ul>
+<li>correct, that’s fine.</li>
+<li>incorrect, stuck</li>
+<li>Everybody is wrong about things.</li>
+</ul>
+<p>Walk Whole Foods every day Topo Chico</p>
+<ul>
+<li>take 10th street, fastest</li>
+<li>9th street quiet has honeysuckles, birdsong</li>
+<li>Try the other metaphorical street</li>
+</ul>
+</section>
+<section>
+<p>(Audience participation) 10/10 people are wrong about something</p>
+<p>If you care to be right, prove yourself wrong.</p>
+<p>Check yourself so you can improve.</p>
+<ul>
+<li>argue opposing opinions, mitigate your conformation bias</li>
+<li>correct yourself when wrong</li>
+<li>By opposing your own <strong>true</strong> viewpoint, you learn exactly <strong>why</strong> it’s true.</li>
+</ul>
+<p>Scientific Method.</p>
+</section>
+<section>
+<p>Problem when convincing others</p>
+<p>Not useful for persuasive speeches.</p>
+<ul>
+<li>goal is to convince? don’t do this, counterproductive. footgun</li>
+<li>conversations, self reflection, honestly explore how you could be wrong.</li>
+</ul>
+</section>
+<section>
+<p>Alternative method, let others oppose your arguments.</p>
+<ul>
+<li>Seems reasonable. you’ll need:</li>
+<li>friends who disagree with you</li>
+<li><strong>actually listen</strong> to them</li>
+</ul>
+<p>Watch out for Group think. – coined by Irving Janis</p>
+<ul>
+<li>Social pressures prevent critical/realistic thinking.</li>
+<li>According to Nasa, groupthink is to blame for the fatal failure of the challenger mission.</li>
+</ul>
+</section>
+<section>
+<p>Self doubt, uncomfortable, inneficient.</p>
+<ul>
+<li>how make desicions?</li>
+<li>Don’t counter yourself all the time.</li>
+<li>reevaluate on new information.</li>
+</ul>
+<p>Watch out for Normalization of Deviance – Coined by Diane Vaughan</p>
+<ul>
+<li>when you become used to something, you gradually stop realizing it’s wrong</li>
+</ul>
+</section>
+<section>
+<p>IF TIME ALLOWS</p>
+<p>Things to ponder.</p>
+<ul>
+<li>What if everybody tryed to prove temselves wrong?</li>
+<li>What if nobody let their minds be changed.</li>
+</ul>
+<p>I will say this</p>
+<ul>
+<li>Changing your mind feels good.</li>
+<li>The world starts to make a little more sense.</li>
+</ul>
+<p>Try questioning even your most tightly held beleifs.</p>
+<ul>
+<li>You’ll change your mind or you’ll elucidate your own reasoning.</li>
+<li>What’s the worst that could happen?</li>
+</ul>
+</section>
+<section>
+<p>I’m going to consciously try opposing my own views.</p>
+<p>Maybe it will help, probably not. Either way, I hope to gain some wisdom in the process.</p>
+</section>
