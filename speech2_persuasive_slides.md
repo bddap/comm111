@@ -1,4 +1,7 @@
 <style>
+html {
+	background: white;
+}
 body {
 	font-family: sans-serif;
 	display: grid;
