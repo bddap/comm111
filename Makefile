@@ -1,6 +1,6 @@
 MDS=$(wildcard *.md)
 PDFS=$(addprefix build/,$(MDS:.md=.pdf))
-HTMLS=$(addprefix docs/,$(MDS:.md=.html))
+HTMLS=$(addprefix build/,$(MDS:.md=.html))
 
 
 build:
@@ -17,10 +17,14 @@ pdfs: $(PDFS)
 docs:
 	mkdir -p docs
 
-docs/%.html: %.md docs
-	pandoc $< -o $@
+build/%.html: %.md build
+	pandoc --self-contained $< -o $@
 
 .PHONY: htmls
 
 htmls: $(HTMLS)
 	:
+
+publish: htmls docs
+	rm docs/*
+	cp build/*.html docs
