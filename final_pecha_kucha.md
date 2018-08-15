@@ -6,7 +6,7 @@ body {
 img {
 	object-fit: contain;
 }
-body, section, img {
+body, section, img, video {
 	width: 100vw;
 	height: 100vh;
 }
@@ -18,29 +18,74 @@ section {
 	display: grid;
 	place-items: center;
 }
+#progress-outer {
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	width: 100vw;
+}
+#progress-inner {
+	height: 2em;
+	width: 0px;
+	background: tomato;
+}
 </style>
 
 <script>
-let currentSlide = 0;
-function display(slide) {
-	const sections = document.getElementsByTagName('section');
-	currentSlide = Math.min(Math.max(slide, 0), sections.length - 1);
-	Array.from(sections).forEach((section, index) => {
-		section.style.display = index === currentSlide ? null : 'none';
+function fitEmbeds() {
+	document.getElementsByTagName('section')
+}
+
+function onContentLoaded() {
+	const slideDuration = 20
+	const sections = document.getElementsByTagName('section')
+	const videos = document.getElementsByTagName('video')
+	const progressInner = document.getElementById('progress-inner')
+	let currentSlide = 0
+	let slideStart = Date.now() / 1000
+
+	function display(slide) {
+		slideStart = Date.now() / 1000
+		currentSlide = Math.min(Math.max(slide, 0), sections.length - 1)
+		Array.from(sections).forEach((section, index) => {
+			const shown = index === currentSlide
+			section.style.display = shown ? null : 'none'
+			if (shown) {
+				// if section contains a video, play the video from start
+				Array.from(section.getElementsByTagName('video'))
+					.forEach(video => {
+						video.currentTime = 0
+						video.play()
+					})
+			}
+		})
+	}
+	
+	function update() {
+		requestAnimationFrame(update)
+		const progress = (Date.now() / 1000 - slideStart) / slideDuration * 100
+		progressInner.style.width = `${Math.min(progress, 100)}%`
+		if (currentSlide === sections.length - 1) {
+			return
+		}
+		if (progress > 100) {
+			display(currentSlide + 1)
+		}
+	}
+
+	update()
+   	display(0)
+	document.addEventListener('click', event => display(currentSlide + 1))
+	document.addEventListener('keydown', event => {
+		if (['ArrowRight', 'ArrowUp', ' '].includes(event.key)) {
+			display(currentSlide + 1)
+		} else if (['ArrowLeft', 'ArrowDown'].includes(event.key)) {
+			display(currentSlide - 1)
+		}
 	})
 }
-document.addEventListener('keydown', event => {
-	if(event.key === 'ArrowRight' || 
-		event.key === 'ArrowUp' ||
-		event.key == ' ')
-		display(currentSlide + 1);
-    if(event.key === 'ArrowLeft' ||
-		event.key === 'ArrowDown')
-		display(currentSlide - 1);
-});
-document.addEventListener('click', event => display(currentSlide + 1));
-document.addEventListener("DOMContentLoaded", () =>	display(0));
-// setInterval(() => display(currentSlide + 1), 500)
+// document.addEventListener("DOMContentLoaded", onContentLoaded)
+document.addEventListener('keydown', onContentLoaded, {once: true})
 </script>
 
 <script>
@@ -66,6 +111,8 @@ document.addEventListener('keydown', event => {
     if(event.key === 'f') toggleFullScreen();
 })
 </script>
+
+<div id="progress-outer"><div id="progress-inner"></div></div>
 
 <section>
 <!-- pi-hole.net -->
@@ -110,12 +157,18 @@ Wifi router
 
 <section>
 <!-- https://www.reddit.com/r/raspberry_pi/comments/9637zg/raspi_used_in_robot_that_finds_waldo_with_ai/ -->
-![waldo](./static/waldo.webm)
+<!-- ![waldo](./static/waldo.webm) -->
+<video autoplay name="media">
+	<source src="./static/waldo.webm" type="video/webm"/>
+</video>
 </section>
 
 <section>
 <!-- https://www.reddit.com/r/raspberry_pi/comments/95ln3y/pi_automated_foosball_scoring/ -->
-![foosball](./static/foosball.webm)
+<!-- ![foosball](./static/foosball.webm) -->
+<video autoplay name="media">
+	<source src="./static/foosball.webm" type="video/webm"/>
+</video>
 </section>
 
 <section>
@@ -131,7 +184,10 @@ Wifi router
 <section>
 <!-- https://www.reddit.com/r/raspberry_pi/comments/94lm00/hi_reddit_heres_one_of_my_fun_projects_using/ -->
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/0xTzc1iJb3s?autoplay=1;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-![led-visualizer](./static/led-visualizer.webm)
+<!-- ![led-visualizer](./static/led-visualizer.webm) -->
+<video autoplay muted="true">
+	<source src="./static/led-visualizer.mp4" type="video/mp4"/>
+</video>
 </section>
 
 <section>
