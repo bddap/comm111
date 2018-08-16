@@ -1,7 +1,7 @@
 <style>
 body {
 	font-family: sans-serif;
-	width: 40em;
+	max-width: 40em;
 	margin: auto;
 }
 </style>
