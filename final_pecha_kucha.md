@@ -115,6 +115,11 @@ document.addEventListener('keydown', event => {
 <div id="progress-outer"><div id="progress-inner"></div></div>
 
 <section>
+<!-- https://www.raspberrypi.org/ -->
+![pi](./static/pi.jpg)
+</section>
+
+<section>
 <!-- pi-hole.net -->
 ![pihole](./static/pihole.png)
 </section>
@@ -142,10 +147,6 @@ Voice assistant
 </section>
 
 <section>
-Wifi router
-</section>
-
-<section>
 <!-- https://github.com/PiStuffing/Quadcopter -->
 ![quadcopter](./static/quadcopter.jpg)
 </section>
@@ -157,7 +158,6 @@ Wifi router
 
 <section>
 <!-- https://www.reddit.com/r/raspberry_pi/comments/9637zg/raspi_used_in_robot_that_finds_waldo_with_ai/ -->
-<!-- ![waldo](./static/waldo.webm) -->
 <video autoplay name="media">
 	<source src="./static/waldo.webm" type="video/webm"/>
 </video>
@@ -165,7 +165,6 @@ Wifi router
 
 <section>
 <!-- https://www.reddit.com/r/raspberry_pi/comments/95ln3y/pi_automated_foosball_scoring/ -->
-<!-- ![foosball](./static/foosball.webm) -->
 <video autoplay name="media">
 	<source src="./static/foosball.webm" type="video/webm"/>
 </video>
@@ -183,14 +182,7 @@ Wifi router
 
 <section>
 <!-- https://www.reddit.com/r/raspberry_pi/comments/94lm00/hi_reddit_heres_one_of_my_fun_projects_using/ -->
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/0xTzc1iJb3s?autoplay=1;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-<!-- ![led-visualizer](./static/led-visualizer.webm) -->
 <video autoplay muted="true">
 	<source src="./static/led-visualizer.mp4" type="video/mp4"/>
 </video>
-</section>
-
-<section>
-<!-- https://www.learnopencv.com/deep-learning-based-human-pose-estimation-using-opencv-cpp-python/ -->
-![pose-estimation](./static/pose-estimation.jpg)
 </section>

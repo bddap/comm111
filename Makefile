@@ -17,7 +17,7 @@ pdfs: $(PDFS)
 docs:
 	mkdir -p docs
 
-build/%.html: %.md build
+build/%.html: %.md build static/*
 	pandoc --self-contained $< -o $@
 
 .PHONY: htmls
@@ -28,3 +28,6 @@ htmls: $(HTMLS)
 publish: htmls docs
 	rm docs/*
 	cp build/*.html docs
+
+watch:
+	ag -l | entr -rcs 'make htmls && reload.bash $(reload)'
