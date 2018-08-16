@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>final_notecards</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section>
+<p>Pecha Kucha Notecards</p>
+<p>Andrew Dirksen</p>
+</section>
+<section>
+<p><strong>Raspberry pi</strong></p>
+<ul>
+<li>multipurpose computer for education and fun.</li>
+<li>35$ cheap enough to experiment with, don’t have to worry about breaking, disposable.</li>
+<li>Wifi</li>
+<li>Bluetooth</li>
+<li>Various physical connectors</li>
+<li>I’m going to show you some fun ways to use the pi.</li>
+</ul>
+</section>
+<section>
+<p><strong>Emulator</strong></p>
+<ul>
+<li>Plug tv, controllers, install Emulation Station.</li>
+<li>any retro game</li>
+<li>First legend of Zelda</li>
+<li>Even Super Mario 64</li>
+</ul>
+</section>
+<section>
+<p><strong>Night Vision</strong></p>
+<ul>
+<li>reddit user Night Vision goggles</li>
+<li>2018, $500 to $3K.</li>
+<li>The contraption shown here costed less than $100 dollars to build.</li>
+</ul>
+</section>
+<section>
+<p><strong>Mediacenter</strong></p>
+<ul>
+<li>People like use pi as media centers</li>
+<li>Tv -&gt; smart tv</li>
+<li>oversimplification, mediacenters do more</li>
+<li>Store and play Music, Movies, TV Shows.</li>
+<li>Stream torrents</li>
+<li>Launch your retro games</li>
+<li>bunch of other neat stuff.</li>
+</ul>
+</section>
+<section>
+<p><strong>Ad blocker</strong></p>
+<ul>
+<li>block internet ads on your home network</li>
+<li>Pi-hole is software for the raspberry pi.</li>
+<li>Connect pi-hole pi home network</li>
+<li>hijack your local dns, block known ad providers</li>
+</ul>
+</section>
+<section>
+<p><strong>Voice Assistant</strong></p>
+<ul>
+<li>Amazon distributes alexa software for all sorts of hardware.</li>
+<li>Pi included.</li>
+<li>speaker, microphone, follow Amazon’s setup instructions, your pi in now a smart speaker</li>
+</ul>
+</section>
+<section>
+<p><strong>Pigirrl</strong></p>
+<ul>
+<li>Remember how you can emulate games on a pi?</li>
+<li>Nobody said need be restricted to the living room.</li>
+<li>3d printed enclosure</li>
+<li>screen</li>
+<li>some buttons</li>
+<li>a battery</li>
+<li>little raspberry pi</li>
+</ul>
+</section>
+<section>
+<p><strong>Octopi</strong></p>
+<ul>
+<li>Plug your 3d printer into a raspberry pi to make a wifi printer.</li>
+<li>I do this and it’s super convienient.</li>
+<li>start print from anywhere pick up later</li>
+</ul>
+</section>
+<section>
+<p><strong>Camera Attachment</strong></p>
+<ul>
+<li>cheap little camera attachment</li>
+<li>security camera</li>
+<li>baby monitor</li>
+<li>dashcam</li>
+<li>Use it to play around with machine vision if you’re into that sort of thing.</li>
+</ul>
+</section>
+<section>
+<p><strong>Waldo</strong></p>
+<ul>
+<li>Having trouble finding Waldo. The pi has you covered.</li>
+<li>It’s a pi attached to a camera, and a robot arm.</li>
+<li>uses machine vision to find waldo at superhuman speeds</li>
+</ul>
+</section>
+<section>
+<p>Thank you</p>
+</section>
+<style>
+body {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    width: calc(100w - 1em);
+    max-width: 40em;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+</style>
+<script>
+let currentSlide = 0;
+function display(slide) {
+    const sections = document.getElementsByTagName('section');
+    currentSlide = Math.min(Math.max(slide, 0), sections.length - 1);
+    Array.from(sections).forEach((section, index) => {
+        section.style.display = index === currentSlide ? null : 'none';
+    })
+}
+document.addEventListener('keydown', event => {
+    if(event.key === 'ArrowRight' || 
+        event.key === 'ArrowUp' ||
+        event.key == ' ')
+        display(currentSlide + 1);
+    if(event.key === 'ArrowLeft' ||
+        event.key === 'ArrowDown')
+        display(currentSlide - 1);
+});
+document.addEventListener('click', event => display(currentSlide + 1));
+document.addEventListener("DOMContentLoaded", () => display(0));
+</script>
+</body>
+</html>
