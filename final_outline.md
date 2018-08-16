@@ -6,10 +6,12 @@ body {
 }
 </style>
 
-Andrew Dirksen</br>
-Things You Can Make With A Raspberry Pi<br/>
-General Purpose: Inform<br/>
-Specific Purpose: List things you can make with a raspberry pi.
+### Pecha Kucha outline
+
+**Andrew Dirksen**</br>
+**Things You Can Make With A Raspberry Pi**<br/>
+**General Purpose**: Inform<br/>
+**Specific Purpose**: List things you can make with a raspberry pi.
 
 **Raspberry pi**
 
@@ -21,12 +23,6 @@ Specific Purpose: List things you can make with a raspberry pi.
   - Bluetooth
   - Various physical connectors
 - I'm going to show you some fun ways to use the pi.
-
-**Ad blocker**
-
-- You can use a raspberry pi to block internet ads.
-- Pi-hole is software for the raspberry pi.
-- Connect a raspberry pi with pi-hole installed to your home network and it will hijack your local dns, blocking connections to known ad providers.
 
 **Emulator**
 
@@ -56,36 +52,23 @@ Specific Purpose: List things you can make with a raspberry pi.
   - Launch your retro games
   - and a bunch of other neat stuff.
 
+**Ad blocker**
+
+- You can use a raspberry pi to block internet ads.
+- Pi-hole is software for the raspberry pi.
+- Connect a raspberry pi with pi-hole installed to your home network and it will hijack your local dns, blocking connections to known ad providers.
+
 **Voice Assistant**
 
 - Amazon is pretty open with their voice assistant service.
 - Amazon echo can be loaded onto a raspberry pi.
 - Hook up a speaker and a microphone, follow Amazon's setup instructions, and your pi becomes a fully featured smart speaker.
 
-**Quadcopter**
-
-- The raspberry pi may serve as the brains for your flying mechanation of choice.
-- This is a raspberry pi running a quadcopter.
-- Stablization is not all the pi can do.
-  - Strap on a camera to relay video.
-  - Include a tracking sensor and the picopter can pilot itself.
-
 **Pigirrl**
 
 - Remember how you can emulate games on a pi?
 - Nobody said need be restricted to the living room.
 - This project constists of a 3d printed enclosure, a screen, some buttons, a battery, and a little raspberry pi.
-
-**Waldo**
-
-- Having trouble finding Waldo. The pi has you covered.
-- This project has been sloshing aroud the internet lately.
-- It's a pi attached to a camera, and a robot arm. Running some machine vision find waldo at superhuman speeds.
-
-**Foosball**
-
-- Somebody posted this project on reddit.
-- It's an automatic foosball scorekeeper using a raspberry pi.
 
 **Octopi**
 
@@ -102,8 +85,12 @@ Specific Purpose: List things you can make with a raspberry pi.
   - or a dashcam
 - Use it to play around with machine vision if you're into that sort of thing.
 
-**Audio Visualizer**
+**Waldo**
 
-- This was posted on reddit the other day.
-- Sombody plugged their pi into an audio source, and a grid of color LEDs.
-- Then they programmed this cool Music visualizer.
+- Having trouble finding Waldo. The pi has you covered.
+- This project has been sloshing aroud the internet lately.
+- It's a pi attached to a camera, and a robot arm. Running some machine vision find waldo at superhuman speeds.
+
+Works Cited:
+
+NA, Multiple. “r/raspberry_pi.” Reddit, 2018, www.reddit.com/r/raspberry_pi.

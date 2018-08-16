@@ -1,5 +1,7 @@
 <style>
 body {
+	font-family: sans-serif;
+	color: #777;
 	margin: 0px;
 	overflow: hidden;
 }
@@ -120,11 +122,6 @@ document.addEventListener('keydown', event => {
 </section>
 
 <section>
-<!-- pi-hole.net -->
-![pihole](./static/pihole.png)
-</section>
-
-<section>
 <!-- https://www.reddit.com/r/raspberry_pi/comments/96ke4f/my_gamer_son_is_learning_how_merciless_the_old/ -->
 ![emulator](./static/emulator.jpg)
 </section>
@@ -141,33 +138,19 @@ Music, Movies, TV Shows. Smart tv.
 </section>
 
 <section>
+<!-- pi-hole.net -->
+![pihole](./static/pihole.png)
+</section>
+
+<section>
 <!-- https://developer.amazon.com/docs/alexa-voice-service/set-up-raspberry-pi.html -->
 ![alexa](./static/alexa.jpg)
 Voice assistant
 </section>
 
 <section>
-<!-- https://github.com/PiStuffing/Quadcopter -->
-![quadcopter](./static/quadcopter.jpg)
-</section>
-
-<section>
 <!-- https://learn.adafruit.com/pigrrl-2/overview -->
 ![pigrrl](./static/pigrrl.jpg)
-</section>
-
-<section>
-<!-- https://www.reddit.com/r/raspberry_pi/comments/9637zg/raspi_used_in_robot_that_finds_waldo_with_ai/ -->
-<video autoplay name="media">
-	<source src="./static/waldo.webm" type="video/webm"/>
-</video>
-</section>
-
-<section>
-<!-- https://www.reddit.com/r/raspberry_pi/comments/95ln3y/pi_automated_foosball_scoring/ -->
-<video autoplay name="media">
-	<source src="./static/foosball.webm" type="video/webm"/>
-</video>
 </section>
 
 <section>
@@ -181,8 +164,48 @@ Voice assistant
 </section>
 
 <section>
-<!-- https://www.reddit.com/r/raspberry_pi/comments/94lm00/hi_reddit_heres_one_of_my_fun_projects_using/ -->
-<video autoplay muted="true">
-	<source src="./static/led-visualizer.mp4" type="video/mp4"/>
+<!-- https://www.reddit.com/r/raspberry_pi/comments/9637zg/raspi_used_in_robot_that_finds_waldo_with_ai/ -->
+<video autoplay name="media">
+	<source src="./static/waldo.webm" type="video/webm"/>
 </video>
+</section>
+
+<section>
+<div>
+
+# Image sources
+
+In order of presentation.
+
+**Raspberry pi**
+[raspberrypi.org/](https://www.raspberrypi.org/)
+
+**Emulator**
+[reddit.com/r/raspberry_pi/comments/96ke4f/my_gamer_son_is_learning_how_merciless_the_old/](https://www.reddit.com/r/raspberry_pi/comments/96ke4f/my_gamer_son_is_learning_how_merciless_the_old/)
+
+**Night Vision**
+[reddit.com/r/raspberry_pi/comments/95n7fd/night_vision_zero_night_vision_goggles_for_less/](https://www.reddit.com/r/raspberry_pi/comments/95n7fd/night_vision_zero_night_vision_goggles_for_less/)
+
+**Mediacenter**
+[forum.kodi.tv/showthread.php?tid=209343](https://forum.kodi.tv/showthread.php?tid=209343)
+
+**Ad blocker**
+[pi-hole.net](https://pi-hole.net)
+
+**Voice Assistant**
+[developer.amazon.com/docs/alexa-voice-service/set-up-raspberry-pi.html](https://developer.amazon.com/docs/alexa-voice-service/set-up-raspberry-pi.html)
+
+**Pigirrl**
+[learn.adafruit.com/pigrrl-2/overview](https://learn.adafruit.com/pigrrl-2/overview)
+
+**Octopi**
+[howchoo.com/g/y2rhnzm3odz/control-your-3d-printer-with-octoprint-and-raspberry-pi](https://howchoo.com/g/y2rhnzm3odz/control-your-3d-printer-with-octoprint-and-raspberry-pi)
+
+**Camera Attachment**
+[raspberrypi.org/](https://www.raspberrypi.org/)
+
+**Waldo**
+[reddit.com/r/raspberry_pi/comments/9637zg/raspi_used_in_robot_that_finds_waldo_with_ai/](https://www.reddit.com/r/raspberry_pi/comments/9637zg/raspi_used_in_robot_that_finds_waldo_with_ai/)
+
+</div>
 </section>
